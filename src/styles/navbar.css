@@ -1,0 +1,174 @@
+/*Desktop View*/
+.header {
+font-family: DM Sans;
+max-width: 1720px;
+height: 100%;
+display: -moz-box;
+display: flex;
+-moz-box-align: center;
+align-items: center;
+-moz-box-pack: justify;
+justify-content: space-between;
+padding: 1% 2.5%;
+margin: 0 auto;
+max-width: 1300px;
+  }
+  .logo{
+    color: #000;
+font-weight: 700;
+font-size: 2rem;
+  }
+  .logo-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .nav-options {
+    padding-left: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 50px;
+    list-style-type: none;
+    align-items: center;
+  }
+  .mobile-option {
+    display: none;
+  }
+  
+  .option  {
+    margin-left: 2em;
+    color: #000;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+
+  .student {
+    display:-moz-box;
+    display:flex;
+    -moz-box-orient:horizontal;
+    -moz-box-direction:normal;
+    flex-direction:row;
+    -moz-box-pack:center;
+    justify-content:center;
+    -moz-box-align:center;
+    align-items:center;
+    width:auto;
+    height:auto;
+    padding: 0.5em 1em;
+    border-radius:5px;
+    color:#438af6;
+    cursor:pointer;
+    background-color:#fff;
+    font-size:1rem;
+    line-height:1.7rem;
+    letter-spacing:-.02em;
+    border:1px solid #438af6;
+    font-weight:700
+  }
+
+  .company {
+  display:flex;
+  -moz-box-orient:horizontal;
+  -moz-box-direction:normal;
+  flex-direction:row;
+  -moz-box-pack:center;
+  justify-content:center;
+  -moz-box-align:center;
+  align-items:center;
+  width:auto;
+    height:auto;
+    padding: 0.5em 1em;
+  border-radius:5px;
+  color:#fff;
+  cursor:pointer;
+  background-color:#142683;
+  font-size:1rem;
+  line-height:1.7rem;
+  letter-spacing:-.02em;
+  margin-right:23px;
+  font-weight:700
+  }
+  .mobile-menu {
+    display: none;
+  }
+  .signin-up{
+    display: flex;
+    padding: 0px 5px;
+    list-style-type: none;
+  }
+  .signin-up li{
+    margin-right: 2em;
+  }
+  .company:hover {
+    border:none!important;
+    background-color:#1e38c1!important;
+    -webkit-box-shadow:0 0 0 4px #1e38c1!important;
+    box-shadow:0 0 0 4px #1e38c1!important;
+    outline-width:3px!important
+   }
+   .student:hover {
+     border: 4px solid #69a1f8;
+     padding: 0.3em 0.9em;
+   }
+  @media (max-width: 648px) {
+    /*Mobile View */
+    .header {
+      padding: 2% 5%;
+    }
+    .logo {
+      width: 45px;
+      height: 45px;
+    }
+    .nav-options {
+      display: flex;
+      width: 100%;
+      height: 350px;
+      position: absolute;
+      top: 80px;
+      left: -100%;
+      opacity: 0;
+      transition: all 0.5s ease;
+      flex-direction: column;
+      list-style-type: none;
+      grid-gap: 0px;
+    }
+    .nav-options.active {
+      background: #fff;
+      left: 0;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
+      align-content: center;
+      padding-left: 0px;
+    }
+  
+    .menu-icon {
+      width: 45px;
+      height: 45px;
+    }
+    .option {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 10vw;
+      padding: 30px 0px;
+    }
+  
+    .signin-up {
+      display: none;
+    }
+    .mobile-menu {
+      display: block;
+    }
+  
+    .company {
+      margin-right: 0;
+    }
+  }

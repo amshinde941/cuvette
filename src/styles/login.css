@@ -1,0 +1,368 @@
+.container{
+    margin-top: 1em;
+}
+.Separator_separatortop{
+    width: 100%;
+height: 1px;
+background: #ebf0f5;
+}
+.InternshipInfo_internshipInfo {
+    height:100%;
+    min-height:91vh;
+    background-color:#f7f8fa;
+    padding:60px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    margin-right:12px;
+    max-width:570px;
+    overflow:hidden
+   }
+   .InternshipInfo_internshipInfo .InternshipInfo_internshipInfoTop .InternshipInfo_internshipHeading {
+    font-size:24px;
+    font-weight:700
+   }
+   .InternshipInfo_internshipInfo .InternshipInfo_internshipInfoTop .InternshipInfo_smallText {
+   font-family: DM Sans;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 1.125rem;
+   line-height: 23px;
+   letter-spacing: -.02em;
+   color: #566474;
+}
+   .InternshipInfo_internshipInfo .InternshipInfo_internshipInfoTop .InternshipInfo_internshipCompany {
+    margin-top:2em;
+   }
+   .InternshipInfo_internshipInfo .InternshipInfo_internshipInfoTop .InternshipInfo_internshipCompany .InternshipInfo_internshipCompany_logo {
+    margin-right: 1em;
+    font-weight: 400;
+    font-size: 1.5rem;
+   }
+   .InternshipInfo_internshipInfo .InternshipInfo_internshipInfoTop .InternshipInfo_internshipCompany {
+    margin-right:15px;
+    margin-top:15px;
+    max-height:25px;
+    width:auto
+   }
+   .InternshipInfo_internshipInfo .InternshipInfo_internshipInfoCenter {
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-gap:0;
+    gap:0
+   }
+   .InternshipInfo_internshipInfo .InternshipInfo_internshipInfoCenter{
+       margin-top: 2em;
+   }
+   .InternshipInfo_internshipInfo .InternshipInfo_internshipInfoCenter .InternshipInfo_internshipInfoCenterItem {
+    display:flex;
+    align-items:flex-start
+   }
+
+   .InternshipInfo_internshipInfo .InternshipInfo_internshipInfoCenter  .InternshipInfo_internshipInfoCenterItem .InternshipInfo_itemDetails {
+    margin-left:20px
+   }
+   .InternshipInfo_internshipInfo .InternshipInfo_internshipInfoCenter .InternshipInfo_internshipInfoCenterItem .InternshipInfo_itemDetails .InternshipInfo_itemDetailsTitle {
+    color:#566474;
+    font-weight:700;
+    font-size:20px
+   }
+   .InternshipInfo_internshipInfo .InternshipInfo_internshipInfoCenter .InternshipInfo_internshipInfoCenterItem .InternshipInfo_itemDetails .InternshipInfo_itemDetailsSubtitle {
+    color:#9eaab7;
+    font-weight:400;
+    font-size:18px
+   }
+   .InternshipInfo_internshipInfo .InternshipInfo_internshipInfoCenter .InternshipInfo_internshipInfoCenterItem:first-child {
+    border-right:1px solid #ebf0f5;
+    border-bottom:1px solid #ebf0f5;
+    padding-bottom:10px
+   }
+   .InternshipInfo_internshipInfo .InternshipInfo_internshipInfoCenter .InternshipInfo_internshipInfoCenterItem:nth-child(2) {
+    border-bottom:1px solid #ebf0f5;
+    padding-bottom:20px;
+    padding-left:40px
+   }
+   .InternshipInfo_internshipInfo .InternshipInfo_internshipInfoCenter .InternshipInfo_internshipInfoCenterItem:nth-child(3) {
+    border-right:1px solid #ebf0f5;
+    padding-top:30px
+   }
+   .InternshipInfo_internshipInfo .InternshipInfo_internshipInfoCenter .InternshipInfo_internshipInfoCenterItem:nth-child(4) {
+    padding-top:30px;
+    padding-left:40px
+   }
+   .InternshipInfo_internshipInfo .InternshipInfo_internshipInfoBottom .InternshipInfo_socialLinks {
+    display:flex;
+    align-items:center;
+    grid-gap:30px;
+    gap:30px
+   }
+   .InternshipInfo_internshipInfo .InternshipInfo_internshipInfoBottom .InternshipInfo_socialLinks .InternshipInfo_socialIcon{
+    margin:10px 15px;
+    width:31px;
+    height:31px;
+    cursor:pointer;
+    background-color: #69a1f8;
+    border-radius: 5px;
+    font-weight:400;
+    font-size:1.5rem;
+    text-align: center;
+   }
+
+   .InternshipInfo_internshipInfo .InternshipInfo_internshipInfoBottom .InternshipInfo_internInfoDetails {
+    margin-top:20px
+   }
+   .InternshipInfo_internshipInfo .InternshipInfo_internshipInfoBottom .InternshipInfo_internInfoDetails .InternshipInfo_detailsList {
+    display:flex;
+    align-items:center;
+    grid-gap:20px;
+    gap:20px
+   }
+   .InternshipInfo_internshipInfo .InternshipInfo_internshipInfoBottom .InternshipInfo_internInfoDetails .InternshipInfo_detailsList .InternshipInfo_detailsListItem span {
+    color:#566474
+   }
+   .InternshipInfo_internshipInfo .InternshipInfo_internshipInfoBottom .InternshipInfo_internInfoDetails .InternshipInfo_detailsList .InternshipInfo_detailsListItem a {
+    color:#566474;
+    font-size:1rem
+   }
+   .LoginPage_loginPage {
+    display:flex
+   }
+   .LoginPage_left {
+    min-width:500px;
+    flex-basis:580px;
+    flex-grow:0
+   }
+   @media only screen and (max-width:960px) {
+    .LoginPage_left {
+     display:none
+    }
+   }
+   .LoginPage_right {
+    min-width:400px;
+    flex-basis:500px;
+    flex-grow:1
+   }
+
+   .GoogleSigninButton_google {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    padding:12px 10px;
+    width:100%;
+    border:none;
+    font-size:1rem;
+    border-radius:5px;
+    font-weight:700;
+    background-color:#f7f8fa;
+    color:#323232;
+    cursor:pointer;
+    font-style:normal;
+    margin:20px 2px;
+    transition:.1s
+   }
+   .GoogleSigninButton_google:hover {
+    outline:none;
+    box-shadow:0 0 0 4px #f7f8fa;
+    outline-width:3px;
+    border-radius:1px;
+    background-color:#f7f8fa
+   }
+   .GoogleSigninButton_google:active {
+    -webkit-transform:translateY(2px);
+    transform:translateY(2px)
+   }
+
+   .GoogleSigninButton_google span {
+    margin-left:8px
+   }
+   .PasswordInput_formPasswordInput {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:10px;
+    border:1px solid #ebf0f5;
+    border-radius:4px;
+    width:auto;
+    cursor:pointer;
+    height:100%
+   }
+   .PasswordInput_formPasswordInput input {
+    width:100%;
+    padding:12px 10px;
+    outline:none;
+    border:none;
+    color:#000;
+    font-size:16px
+   }
+   .PasswordInput_formPasswordInput input::-webkit-input-placeholder {
+    color:#9eaab7
+   }
+   .PasswordInput_formPasswordInput input:-ms-input-placeholder {
+    color:#9eaab7
+   }
+   .PasswordInput_formPasswordInput input::placeholder {
+    color:#9eaab7
+   }
+
+   .PasswordInput_formPasswordInput:focus-within {
+    outline:none;
+    box-shadow:0 0 0 4px #142683;
+    outline-width:3px
+   }
+
+   
+   .LoginWithEmail_loginWithEmail {
+    border:1px solid #ebf0f5;
+    border-radius:10px;
+    padding:35px 45px;
+    max-width:500px;
+    margin-top:88px;
+    margin-right:auto;
+    margin-left:auto
+   }
+   @media only screen and (max-width:960px) {
+    .LoginWithEmail_loginWithEmail {
+     padding:35px 20px;
+     margin-top:40px;
+     border:0 solid #ebf0f5!important
+    }
+   }
+    .LoginWithEmail_heading {
+    font-size:20px
+   }
+    .LoginWithEmail_form {
+    margin-top:40px
+   }
+    .LoginWithEmail_form .LoginWithEmail_formEmail .LoginWithEmail_formEmailLabel {
+    display:flex;
+    align-items:center;
+    justify-content:space-between
+   }
+    .LoginWithEmail_form .LoginWithEmail_formEmail .LoginWithEmail_formEmailLabel label {
+    font-weight:700;
+    color:#566474;
+    font-size:16px
+   }
+    .LoginWithEmail_form .LoginWithEmail_formEmail .LoginWithEmail_formEmailLabel .LoginWithEmail_linkPhoneNumber {
+    color:#445ee2;
+    font-size:16px;
+    cursor:pointer;
+    font-weight:500
+   }
+    .LoginWithEmail_form .LoginWithEmail_formEmail .LoginWithEmail_formEmailInput {
+    margin-top:10px;
+    display:flex;
+   }
+   .LoginWithEmail_formEmailInput {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:10px;
+    border:1px solid #ebf0f5;
+    border-radius:4px;
+    width:auto;
+    cursor:pointer;
+    height:100%
+      }
+   .LoginWithEmail_formEmailInput input {
+    width:100%;
+    padding:12px 10px;
+    outline:none;
+    border:none;
+    color:#000;
+    font-size:16px
+   }
+   .LoginWithEmail_formEmailInput input::-webkit-input-placeholder {
+    color:#9eaab7
+   }
+   .LoginWithEmail_formEmailInput input:-ms-input-placeholder {
+    color:#9eaab7
+   }
+   .LoginWithEmail_formEmailInput input::placeholder {
+    color:#9eaab7
+   }
+
+   .LoginWithEmail_formEmailInput:focus-within {
+    outline:none;
+    box-shadow:0 0 0 4px #142683;
+    outline-width:3px
+   }
+    .LoginWithEmail_form .LoginWithEmail_formPassword {
+    margin-top:24px
+   }
+    .LoginWithEmail_form .LoginWithEmail_formPassword .LoginWithEmail_formPasswordLabel {
+    font-weight:700;
+    color:#566474;
+    font-size:16px
+   }
+    .LoginWithEmail_form .LoginWithEmail_forgetPassword {
+    padding-top:15px;
+    font-weight:500;
+    font-size:14px;
+    color:#566474;
+    cursor:pointer;
+    display:inline-block
+   }
+    .LoginWithEmail_form .LoginWithEmail_formButton {
+    margin-top:50px
+   }
+
+    .LoginWithEmail_form .LoginWithEmail_createAccountLink {
+    margin-top:20px;
+    text-align:center;
+    font-size:16px
+   }
+    .LoginWithEmail_form .LoginWithEmail_createAccountLink span {
+    font-weight:700;
+    text-decoration:underline;
+    color:#000;
+    cursor:pointer
+   }
+   .Login_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px 8px 16px;
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-weight: 700;
+    background-color: #142683;
+    color: #fff;
+    cursor: pointer;
+    font-style: normal;
+    margin: 3px;
+    transition: .1s;
+}
+.Login_button:hover {
+    outline: none;
+        outline-width: medium;
+    box-shadow: 0 0 0 4px #43519c;
+    outline-width: 3px;
+    border-radius: 1px;
+    background-color: #43519c;
+}
+.Separator_separator{
+    width: 100%;
+height: 1px;
+background: #ebf0f5;
+margin: 20px 5px;
+}
+
+.LoginWithEmail_loginWithMobile {
+    border:1px solid #ebf0f5;
+    border-radius:10px;
+    padding:35px 45px;
+    max-width:500px;
+    margin-top:88px;
+    margin-right:auto;
+    margin-left:auto
+   }
+.dont_show{
+    display: none;
+}
+   
+   
